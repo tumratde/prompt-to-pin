@@ -1,19 +1,19 @@
-# Prompt-to-Pin: An AI-Powered Arduino Agent Built with Strand SDK
+# Prompt-to-Pin: An AI-Powered Arduino Agent Built with Strands Agent SDK
 
-> **A showcase of modern GenAI architecture using Strand SDK, MCP protocol, and Claude 3.5 to bridge natural language and embedded systems programming.**
+> **A showcase of modern GenAI architecture using Strands SDK, MCP protocol, and Claude 3.5 to bridge natural language and embedded systems programming.**
 
 ## 🎯 Project Overview
 
 Prompt-to-Pin demonstrates advanced GenAI agent architecture by creating an intelligent system that translates natural language descriptions into working Arduino code. This project showcases:
 
-- **Agent-based AI Architecture** using Strand SDK
+- **Agent-based AI Architecture** using Strands SDK
 - **Model Context Protocol (MCP)** for tool integration
 - **Large Language Model Integration** with Claude via Amazon Bedrock
 - **End-to-end automation** from prompt to deployed embedded code
 
 ## 🏗️ Architecture Benefits
 
-### **Strand SDK Framework**
+### **Strands SDK Framework**
 - **Structured Agent Design**: Leverages Strand's conversation management and tool orchestration
 - **Async Processing**: Handles multiple operations (compile, upload, monitor) efficiently
 - **Error Handling**: Built-in retry mechanisms and graceful failure recovery
@@ -52,7 +52,7 @@ Prompt-to-Pin demonstrates advanced GenAI agent architecture by creating an inte
 
 ```
 prompt-to-pin/
-├── agent.py               # Main Strand-based CLI agent
+├── agent.py               # Main Strands-based CLI agent
 ├── README.md              # Project documentation
 ├── assets/
 │   └── Arduino_Agent_Demo.mp4
@@ -163,7 +163,7 @@ python agent.py
 
 ```
 ┌─────────────────┐    ┌──────────────────┐    ┌─────────────────┐
-│   Natural       │    │   Strand SDK     │    │   MCP Arduino   │
+│   Natural       │    │   Strands SDK     │    │   MCP Arduino   │
 │   Language      │───▶│   Agent          │───▶│   Server        │
 │   Input         │    │   Framework      │    │                 │
 └─────────────────┘    └──────────────────┘    └─────────────────┘
@@ -186,7 +186,7 @@ python agent.py
 
 ### **Component Breakdown**
 
-**🧠 Strand SDK Agent**
+**🧠 Strands SDK Agent**
 - Orchestrates the entire workflow
 - Manages conversation state and context
 - Handles error recovery and user feedback
@@ -210,7 +210,7 @@ python agent.py
 
 This project demonstrates :
 
-- **Modern AI Agent Architecture**: Using Strand SDK for production-ready agents
+- **Modern AI Agent Architecture**: Using Strands SDK for production-ready agents
 - **Protocol Integration**: Implementing MCP for standardized tool communication
 - **Cloud AI Services**: Leveraging AWS Bedrock for scalable LLM integration
 - **Hardware Abstraction**: Creating seamless software-hardware interfaces
@@ -222,7 +222,7 @@ This project demonstrates :
 
 | Component | Technology | Purpose |
 |-----------|------------|----------|
-| **Agent Framework** | Strand SDK | Conversation management, tool orchestration |
+| **Agent Framework** | Strands SDK | Conversation management, tool orchestration |
 | **LLM Provider** | Claude 3.5 via Amazon Bedrock | Code generation, natural language processing |
 | **Tool Protocol** | Model Context Protocol (MCP) | Standardized LLM-tool communication |
 | **Hardware Interface** | mcp-arduino-server + Arduino CLI | Board management, compilation, upload |
