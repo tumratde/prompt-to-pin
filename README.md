@@ -55,7 +55,9 @@ prompt-to-pin/
 ├── agent.py               # Main Strand-based CLI agent
 ├── README.md              # Project documentation
 ├── assets/
-│   └── demo.gif           # Demo recording
+│   └── Arduino_Agent_Demo.mp4
+│   └── hardware_setup.png
+│   └── Arduino_AI_Agent.jpeg
 ├── examples/
 │   ├── basic_blink.ino    # Generated example sketches
 │   └── button_LED_control.ino
@@ -130,7 +132,7 @@ python agent.py
 
 ## 🎥 Demo
 
-![Demo](assets/demo.gif)
+![Demo](https://github.com/tumratde/prompt-to-pin/blob/main/assets/Arduino_Agent_Demo.mp4)
 
 *Watch the agent transform natural language into working Arduino code in seconds*
 
@@ -170,7 +172,7 @@ python agent.py
                                 ▼                        ▼
                        ┌──────────────────┐    ┌─────────────────┐
                        │   Claude 3.5     │    │   Arduino CLI   │
-                       │   via Bedrock    │◀──▶│   + Hardware    │
+                       │   via Bedrock    │    │   + Hardware    │
                        └──────────────────┘    └─────────────────┘
                                 ▲
                                 │
