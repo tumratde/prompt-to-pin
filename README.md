@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="https://raw.githubusercontent.com/tumratde/prompt-to-pin/main/assets/Arduino_AI_Agent.png" alt="Prompt-to-Pin Banner" width="600"/>
-</p>
-
 # Prompt-to-Pin: An AI-Powered Arduino Agent Built with Strand SDK
 
 > **A showcase of modern GenAI architecture using Strand SDK, MCP protocol, and Claude 3.5 to bridge natural language and embedded systems programming.**
@@ -229,30 +225,6 @@ This project demonstrates :
 | **Tool Protocol** | Model Context Protocol (MCP) | Standardized LLM-tool communication |
 | **Hardware Interface** | mcp-arduino-server + Arduino CLI | Board management, compilation, upload |
 | **Runtime** | Python 3.8+ | Cross-platform compatibility |
-
----
-
----
-
-## 🔧 Troubleshooting
-
-**Board not detected?**
-```bash
-arduino-cli board list  # Check connected boards
-```
-
-**Permission errors?**
-```bash
-# macOS/Linux
-sudo usermod -a -G dialout $USER  # Then logout/login
-
-# macOS specific
-sudo dseditgroup -o edit -a $(whoami) -t user wheel
-```
-
-**AWS Bedrock access issues?**
-- Ensure your AWS account has Bedrock access enabled
-- Check that Claude models are available in your region
 
 ---
 
