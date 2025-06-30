@@ -1,4 +1,4 @@
-# Prompt-to-Pin: An LLM Agent That Programs Arduino from Natural Language
+# Prompt-to-Pin: An AI-Powered Arduino Agent Built with Strand SDK
 
 > **A showcase of modern GenAI architecture using Strand SDK, MCP protocol, and Claude 3.5 to bridge natural language and embedded systems programming.**
 
