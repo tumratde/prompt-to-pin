@@ -275,12 +275,6 @@ Contributions welcome! Focus areas:
 
 ---
 
-## 📄 License
-
-MIT License
-
----
-
 ## 📞 Contact
 
 **GitHub**: [@tumratde](https://github.com/tumratde)  
