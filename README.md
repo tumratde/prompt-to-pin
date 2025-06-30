@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tumratde/prompt-to-pin/main/assets/Arduino_AI_Agent.png" alt="Prompt-to-Pin Banner" width="600"/>
+</p>
+
 # Prompt-to-Pin: An AI-Powered Arduino Agent Built with Strand SDK
 
 > **A showcase of modern GenAI architecture using Strand SDK, MCP protocol, and Claude 3.5 to bridge natural language and embedded systems programming.**
