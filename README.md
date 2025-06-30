@@ -86,9 +86,8 @@ source prompt-env/bin/activate
 # Install dependencies
 pip install -r requirements.txt
 
-# Install Arduino CLI and MCP server
+# Install Arduino CLI 
 brew install arduino-cli  # On Linux: curl -fsSL https://raw.githubusercontent.com/arduino/arduino-cli/master/install.sh | sh
-uvx install mcp-arduino-server@latest
 
 # Setup AWS credentials for Bedrock
 aws configure  # Or set AWS_ACCESS_KEY_ID and AWS_SECRET_ACCESS_KEY
