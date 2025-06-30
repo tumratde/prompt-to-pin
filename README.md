@@ -1,6 +1,6 @@
-<img src="https://raw.githubusercontent.com/tumratde/prompt-to-pin/main/assets/Arduino_AI_Agent.png" alt="Prompt-to-Pin Banner" width="600"/>
-
-
+<p align="center">
+  <img src="https://raw.githubusercontent.com/tumratde/prompt-to-pin/main/assets/Arduino_AI_Agent.png" alt="Prompt-to-Pin Banner" width="600"/>
+</p>
 
 # Prompt-to-Pin: An AI-Powered Arduino Agent Built with Strand SDK
 
