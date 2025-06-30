@@ -256,27 +256,6 @@ sudo dseditgroup -o edit -a $(whoami) -t user wheel
 
 ---
 
-## 🔮 Roadmap
-
-- [ ] **ESP32/ESP8266 Support** - WiFi-enabled projects
-- [ ] **Circuit Diagrams** - Auto-generate wiring diagrams
-- [ ] **Component Database** - Smart sensor/actuator suggestions
-- [ ] **Simulation Mode** - Test without hardware
-- [ ] **Web Interface** - Browser-based interaction
-- [ ] **Project Templates** - Common project scaffolding
-
----
-
-## 🤝 Contributing
-
-Contributions welcome! Focus areas:
-- **Hardware Support**: New microcontroller integrations
-- **Error Handling**: Better failure recovery
-- **Documentation**: More examples and tutorials
-- **Testing**: Automated testing framework
-
----
-
 ## 📞 Contact
 
 **GitHub**: [@tumratde](https://github.com/tumratde)  
