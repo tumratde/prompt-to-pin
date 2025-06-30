@@ -60,7 +60,6 @@ prompt-to-pin/
 │   ├── basic_blink.ino    # Generated example sketches
 │   └── button_LED_control.ino
 ├── requirements.txt       # Dependencies
-└── LICENSE
 ```
 
 ---
