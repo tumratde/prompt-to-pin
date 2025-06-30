@@ -278,7 +278,6 @@ Contributions welcome! Focus areas:
 ## 📞 Contact
 
 **GitHub**: [@tumratde](https://github.com/tumratde)  
-**Project**: [prompt-to-pin](https://github.com/tumratde/prompt-to-pin)
 **Author**: Deepinder Singh Tumrate
 
 ---
