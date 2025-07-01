@@ -1,8 +1,15 @@
+<p align="center">
+  <img src="./assets/Arduino_AI_Agent.png" alt="Prompt to Pin Banner" width="600"/>
+</p>
+
+
 # Prompt-to-Pin: An AI-Powered Arduino Agent Built with Strands Agent SDK
 
 > **A showcase of modern GenAI architecture using Strands SDK, MCP protocol, and Claude 3.5 to bridge natural language and embedded systems programming.**
 
 ## 🎯 Project Overview
+
+Imagine telling an AI: "Blink the onboard LED every second and show a log for each blink." ...and it writes the code, compiles it, uploads it to your Arduino, and even opens the serial monitor — all from one prompt.
 
 Prompt-to-Pin demonstrates advanced GenAI agent architecture by creating an intelligent system that translates natural language descriptions into working Arduino code. This project showcases:
 
@@ -132,7 +139,7 @@ python agent.py
 
 ## 🎥 Demo
 
-![Demo](https://github.com/tumratde/prompt-to-pin/blob/main/assets/Arduino_Agent_Demo.mp4)
+[![YouTube Demo](https://img.shields.io/badge/Watch-Demo-red?logo=youtube)](https://www.youtube.com/watch?v=SsTIuNGquJ0)
 
 *Watch the agent transform natural language into working Arduino code in seconds*
 
